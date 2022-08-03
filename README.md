@@ -2,13 +2,14 @@
 
 ✏️This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - JavaScript
 
+## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
 - Solution URL: [Solution in Front End Mentor](https://your-solution-url.com)
 - Live Site URL: [Interactive Rating Component](https://your-live-site-url.com)🌐
