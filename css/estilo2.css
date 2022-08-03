@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+}
+
+.card_container{
+    position: relative;
+    height: 470px;
+    width: 480px;
+    background-color: hsla(212, 28%, 14%, 0.753);
+    border-radius: 55px;
+}
+
+.thanks{
+    position: absolute;
+    top: 60px;
+    left: 140px;
+}
+
+/* Damos la nota */
+.number{
+    position: absolute;
+    display: inline-block;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: 'Overpass', sans-serif;
+    top: 205px;
+    left: 143px;
+    font-weight: bold;
+}
+
+.padding{
+    padding: 7px 17px;
+}
+/* Fin damos la nota */
+
+.title{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    top: 270px;
+    left: 140px;
+}
+
+.message{
+    position: absolute;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(216, 12%, 54%);
+    top: 320px;
+    left: 40px;
+    width: 400px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media (max-width: 360px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 470px;
+        width: 330px;
+    }
+
+    .thanks{
+        left: 80px;
+    }
+
+    .title{
+        left: 80px;
+    }
+
+    .message{
+        left: 20px;
+        width: 290px;
+    }
+
+    .number{
+        left: 80px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 470px;
+        width: 330px;
+    }
+
+    .thanks{
+        left: 80px;
+    }
+
+    .title{
+        left: 80px;
+    }
+
+    .message{
+        left: 20px;
+        width: 290px;
+    }
+
+    .number{
+        left: 80px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 600px;
+        width: 500px;
+    }
+
+    .thanks{
+        left: 160px;
+    }
+
+    .title{
+        margin-top: 25px;
+        left: 140px;
+        font-size: 20px;
+    }
+
+    .message{
+        margin-top: 50px;
+        width: 420px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .number{
+        margin-top: 10px;
+        left: 130px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+}
+
+.card_container{
+    position: relative;
+    height: 470px;
+    width: 480px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 55px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    top: 50px;
+    left: 40px;
+    border-radius: 50%;
+}
+
+.title{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    top: 130px;
+    left: 40px;
+}
+
+.description{
+    position: absolute;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(216, 12%, 54%);
+    top: 180px;
+    left: 40px;
+    width: 400px;
+    line-height: 24px;
+}
+
+.rating{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 290px;
+    left: 40px;
+    width: 400px;
+}
+
+.note1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    transition: .4s;
+}
+
+.note2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 85px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    transition: .4s;
+}
+
+.note3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 170px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    transition: .4s;
+}
+
+.note4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 255px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    transition: .4s;
+}
+
+.note5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 340px;
+    background-color: hsla(217, 12%, 63%, 0.089);
+    border-radius: 50%;
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    transition: .4s;
+}
+
+.orange{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.send{
+    position: absolute;
+    top: 390px;
+    padding: 15px 170px;
+    background-color: hsl(25, 97%, 53%);
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    left: 45px;
+    transition: .4s;
+}
+
+/* Hover*/
+
+.note1:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.note2:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.note3:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.note4:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.note5:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.send:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+@media (max-width: 360px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 470px;
+        width: 330px;
+    }
+
+    .description{
+        width: 280px;
+    }
+
+    .note1{
+        height: 50px;
+        width: 50px;
+        left: -15px;
+    }
+
+    .note2{
+        height: 50px;
+        width: 50px;
+        left: 45px;
+    }
+
+    .note3{
+        height: 50px;
+        width: 50px;
+        left: 105px;
+    }
+
+    .note4{
+        height: 50px;
+        width: 50px;
+        left: 165px;
+    }
+
+    .note5{
+        height: 50px;
+        width: 50px;
+        left: 225px;
+    }
+
+    .send{
+        top: 380px;
+        padding: 15px 100px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 470px;
+        width: 300px;
+    }
+
+    .description{
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .note1{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        left: -20px;
+    }
+
+    .note2{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        left: 35px;
+    }
+    .note3{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        left: 90px;
+    }
+
+    .note4{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        left: 145px;
+    }
+
+    .note5{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        left: 200px;
+    }
+
+    .send{
+        top: 387px;
+        padding: 15px 80px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        height: 100vh;
+    }
+
+    .card_container{
+        height: 470px;
+        width: 440px;
+    }
+
+    .description{
+        width: 320px;
+        font-size: 15px;
+    }
+
+    .note1{
+        top: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .note2{
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        left: 75px;
+    }
+    .note3{
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        left: 150px;
+    }
+
+    .note4{
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        left: 226px;
+    }
+
+    .note5{
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        left: 300px;
+    }
+
+    .send{
+        top: 387px;
+        padding: 15px 140px;
+        left: 50px;
+    }
+}
