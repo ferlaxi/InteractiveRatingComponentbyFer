@@ -12,4 +12,4 @@
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
 - Solution URL: [Solution in Front End Mentor](https://your-solution-url.com)
-- Live Site URL: [Interactive Rating Component](https://your-live-site-url.com)🌐
+- Live Site URL: [Interactive Rating Component](https://ferlaxi.github.io/InteractiveRatingComponentbyFer/)🌐
